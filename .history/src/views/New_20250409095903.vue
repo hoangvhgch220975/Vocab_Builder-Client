@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>New Word</h1>
-    <word-form :word="word" @createOrUpdate="onSubmit" />
+    <word-form :word="word" @submit="onSubmit" />
   </div>
 </template>
 
